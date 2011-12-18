@@ -69,3 +69,5 @@ D, [2011-12-17T23:32:52.697024 #1749] DEBUG -- : REQUESTING PAGE: GET http://tes
 D, [2011-12-17T23:32:52.739397 #1749] DEBUG -- : REQUESTING PAGE: GET /files/presentation.odp with {} and HTTP headers {"HTTP_REFERER"=>"http://test.onesite.com/presentation/index"}
 D, [2011-12-17T23:33:08.257276 #1779] DEBUG -- : REQUESTING PAGE: GET http://test.onesite.com/presentation/index with {} and HTTP headers {}
 D, [2011-12-17T23:33:08.301795 #1779] DEBUG -- : REQUESTING PAGE: GET /files/presentation.odp with {} and HTTP headers {"HTTP_REFERER"=>"http://test.onesite.com/presentation/index"}
+D, [2011-12-18T01:21:19.647688 #4077] DEBUG -- : REQUESTING PAGE: GET http://test.onesite.com/presentation/index with {} and HTTP headers {}
+D, [2011-12-18T01:21:19.696138 #4077] DEBUG -- : REQUESTING PAGE: GET /files/presentation.odp with {} and HTTP headers {"HTTP_REFERER"=>"http://test.onesite.com/presentation/index"}
