@@ -36,7 +36,7 @@ return array(
 
 	'GET /' => function()
 	{
-		return View::make('home.index');
+		return View::make('layouts.default')->nest('content', 'presentation.index');
 	},
 
 );

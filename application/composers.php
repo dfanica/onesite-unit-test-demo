@@ -39,9 +39,13 @@ return array(
 	|
 	*/
 
-	'home.index' => array('name' => 'home', function($view)
-	{
-		// This composer is called for the "home.index" view.
-	}),
-
+    'layouts.default' => function($view)
+    {
+        Asset::add('bootstrap', 'http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css');
+        Asset::add('prettify', 'prettify/prettify.js');
+        Asset::add('prettify-css', 'prettify/prettify.css', 'prettify');
+        Asset::add('jquery', 'js/fancybox/jquery-1.4.3.min.js');
+        Asset::add('fancybox', 'js/fancybox/fancybox/jquery.fancybox-1.3.4.pack.js', 'jquery');
+        Asset::add('fancybox-css', '/js/fancybox/fancybox/jquery.fancybox-1.3.4.css', 'fancybox');
+    },
 );
